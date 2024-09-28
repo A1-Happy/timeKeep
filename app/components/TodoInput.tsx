@@ -3,7 +3,6 @@
 
 import React, { useState, useEffect, FormEvent } from 'react';
 import { Button } from '@/components/ui/button';
-import { buttonVariants } from "@/components/ui/button"
 
 interface TodoInputProps {
   addTodo: (text: string) => void;
